@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="@color/light_silver">
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/textViewPubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:gravity="right"
+        android:textColor="@color/green"
+        android:layout_alignParentRight="true"
+     />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/textViewCategory"
+        android:scaleType="fitXY"/>
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:paddingTop="10dp"
+    android:layout_toRightOf="@+id/imageView"
+    android:layout_alignTop="@+id/imageView"
+    android:textColor="@color/green"
+    android:layout_below="@+id/textViewPubDate"
+     />
+
+
+
+</RelativeLayout>
+
+
+

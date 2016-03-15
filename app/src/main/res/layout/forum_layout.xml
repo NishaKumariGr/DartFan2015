@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:background="@color/dark_gray">
+
+        <ImageView
+            android:id="@+id/forum_team_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/forum_team_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/silver"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/forum_new_post_edittext"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textColorHint="@color/dark_gray"
+            android:textColor="@color/dark_gray"
+            android:hint="Enter a new post..."/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false"
+            android:text="Post"
+            android:onClick="onForumPostClicked"/>
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/refresh"
+            android:clickable="true"
+            android:onClick="onForumRefreshClicked"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/forum_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:divider="@color/silver"
+        android:dividerHeight="8dp">
+
+    </ListView>
+
+</LinearLayout>

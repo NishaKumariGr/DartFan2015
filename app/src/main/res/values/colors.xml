@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dartmouth_green">#006400</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_green">#99CC99</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#ffacacac</color>
+    <color name="light_silver">#ffeaeaea</color>
+    <color name="gray">#ff545454</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#ff005f00</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="dark_gray">#bd000000</color>
+    <color name="gray_transparent">#bd7f7f7f</color>
+    <color name="black">#000000</color>
+</resources>

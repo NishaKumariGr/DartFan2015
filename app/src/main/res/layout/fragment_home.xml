@@ -1,0 +1,87 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dartmouth.cs.ploomis.dartfan.HomeFragment"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@color/silver">
+
+    <RadioGroup
+        android:id="@+id/radioTeams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/silver">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_button_mens_teams"
+            android:id="@+id/mensButton"
+            android:textColor="@color/dark_gray"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/ui_button_womens_teams"
+            android:textColor="@color/dark_gray"
+            android:id="@+id/womensButton"
+            android:layout_weight="1"
+            android:clickable="true" />
+
+    </RadioGroup>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:horizontalSpacing="6dp"
+        android:verticalSpacing="6dp"
+        android:background="@color/silver"
+        android:layout_below="@+id/radioTeams"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_silver"
+        android:id="@+id/teamLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamNameText"
+            android:gravity="center"
+            android:textColor="@color/green"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:scaleType="fitXY"
+            android:layout_below="@id/teamNameText"/>
+
+        <ImageView
+            android:id="@+id/followImage"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/heart32"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

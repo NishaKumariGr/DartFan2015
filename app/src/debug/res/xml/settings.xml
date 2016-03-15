@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/account_preferences">
+
+    <EditTextPreference
+        android:key="name_preference"
+        android:title="@string/title_user_preference"
+        android:summary="@string/summary_user_preference"
+        android:dialogTitle="@string/dialog_title_user_preference" />
+
+
+    <CheckBoxPreference
+        android:key="anony_preference"
+        android:title="@string/title_privacy_preference"
+        android:summary="@string/summary_privacy_preference"
+        android:defaultValue="true"
+        android:checked="true"
+        android:enabled="true"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/misc_preferences">
+
+        <PreferenceScreen
+            android:key="dart_webpage_preference"
+            android:title="@string/title_webpage_preference"
+            android:summary="@string/summary_webpage_preference" >
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.dartmouthsports.com"/>
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

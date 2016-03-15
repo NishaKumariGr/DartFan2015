@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="forum_team_icons">
+        <item>@drawable/mens_baseball</item>
+        <item>@drawable/mens_lightweightcrew</item>
+        <item>@drawable/mens_crosscountry</item>
+        <item>@drawable/mens_football</item>
+        <item>@drawable/mens_icehockey</item>
+        <item>@drawable/mens_sailing</item>
+        <item>@drawable/mens_soccer</item>
+        <item>@drawable/mens_swimming</item>
+        <item>@drawable/mens_track</item>
+        <item>@drawable/mens_basketball</item>
+        <item>@drawable/mens_heavyweightcrew</item>
+        <item>@drawable/mens_equestrian</item>
+        <item>@drawable/mens_golf</item>
+        <item>@drawable/mens_lacrosse</item>
+        <item>@drawable/mens_skiing</item>
+        <item>@drawable/mens_squash</item>
+        <item>@drawable/mens_tennis</item>
+        <item>@drawable/womens_basketball</item>
+        <item>@drawable/womens_crosscountry</item>
+        <item>@drawable/womens_fieldhockey</item>
+        <item>@drawable/womens_icehockey</item>
+        <item>@drawable/womens_sailing</item>
+        <item>@drawable/womens_soccer</item>
+        <item>@drawable/womens_squash</item>
+        <item>@drawable/womens_tennis</item>
+        <item>@drawable/womens_volleyball</item>
+        <item>@drawable/womens_crew</item>
+        <item>@drawable/womens_equestrian</item>
+        <item>@drawable/womens_golf</item>
+        <item>@drawable/womens_lacrosse</item>
+        <item>@drawable/womens_skiing</item>
+        <item>@drawable/womens_softball</item>
+        <item>@drawable/womens_swimming</item>
+        <item>@drawable/womens_track</item>
+    </string-array>
+
+    <string-array name="forum_team_names">
+        <item>Men\'s Baseball</item>
+        <item>Men\'s Lightweight Crew</item>
+        <item>Men\'s Cross Country</item>
+        <item>Men\'s Football</item>
+        <item>Men\'s Ice Hockey</item>
+        <item>Men\'s Sailing</item>
+        <item>Men\'s Soccer</item>
+        <item>Men\'s Swimming &amp; Diving</item>
+        <item>Men\'s Track &amp; Field</item>
+        <item>Men\'s Basketball</item>
+        <item>Men\'s Heavyweight Crew</item>
+        <item>Men\'s Equestrian</item>
+        <item>Men\'s Golf</item>
+        <item>Men\'s Lacrosse</item>
+        <item>Men\'s Skiing</item>
+        <item>Men\'s Squash</item>
+        <item>Men\'s Tennis</item>
+        <item>Women\'s Basketball</item>
+        <item>Women\'s Cross Country</item>
+        <item>Women\'s Field Hockey</item>
+        <item>Women\'s Ice Hockey</item>
+        <item>Women\'s Sailing</item>
+        <item>Women\'s Soccer</item>
+        <item>Women\'s Squash</item>
+        <item>Women\'s Tennis</item>
+        <item>Women\'s Volleyball</item>
+        <item>Women\'s Crew</item>
+        <item>Women\'s Equestrian</item>
+        <item>Women\'s Golf</item>
+        <item>Women\'s Lacrosse</item>
+        <item>Women\'s Skiing</item>
+        <item>Women\'s Softball</item>
+        <item>Women\'s Swimming &amp; Diving</item>
+        <item>Women\'s Track &amp; Field</item>
+    </string-array>
+
+    <string-array name="men_team_names">
+        <item>Baseball</item>
+        <item>M Crew Lightweight </item>
+        <item>M Cross Country</item>
+        <item>Football</item>
+        <item>Men\'s Hockey</item>
+        <item>Sailing</item>
+        <item>M Soccer</item>
+        <item>M Swimming &amp; Diving</item>
+        <item>M Track &amp; Field</item>
+        <item>M Basketball</item>
+        <item>M Crew Heavyweight</item>
+        <item>Equestrian</item>
+        <item>M Golf</item>
+        <item>M Lacrosse</item>
+        <item>Skiing</item>
+        <item>M Squash</item>
+        <item>M Tennis</item>
+    </string-array>
+
+    <string-array name="women_team_names">
+        <item>W Basketball</item>
+        <item>W Cross Country</item>
+        <item>Field Hockey</item>
+        <item>Women\'s Hockey</item>
+        <item>Sailing</item>
+        <item>W Soccer</item>
+        <item>W Squash</item>
+        <item>W Tennis</item>
+        <item>Women\'s Volleyball</item>
+        <item>W Crew</item>
+        <item>Equestrian</item>
+        <item>W Golf</item>
+        <item>W Lacrosse</item>
+        <item>Skiing</item>
+        <item>Softball</item>
+        <item>W Swimming &amp; Diving</item>
+        <item>W Track &amp; Field</item>
+    </string-array>
+
+</resources>
